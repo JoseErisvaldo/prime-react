@@ -1,0 +1,11 @@
+.erro {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px;
+    height: calc(100vh - 130px);
+}
+.erro img{
+    min-width: 320px;
+    border-radius: 100%;
+}

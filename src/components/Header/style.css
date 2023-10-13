@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 124, 255);
+    color: white;
+}
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+.nav-bar ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 26px;
+    cursor: pointer;
+
+}
+.nav-bar ul li .link {
+    text-decoration: none;
+    color: white;
+}
+.nav-bar ul li:hover {
+    color: black;
+    background-color: rgba(108, 166, 253, 0.457);
+}

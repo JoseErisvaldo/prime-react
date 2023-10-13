@@ -1,0 +1,20 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.filme-info {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 120px);
+}
+.filme-info img {
+    width: 80%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.filme-info span {
+    width: 80%;
+    margin-top: 10px;
+}
