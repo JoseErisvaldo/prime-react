@@ -16,7 +16,7 @@ function Home () {
                     page:2
                 }
             })
-            setFilmes(response.data.results.slice(0,30))
+            setFilmes(response.data.results.slice(0,10))
             setLoading(false)
         }
         loadApi()
